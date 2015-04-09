@@ -22,7 +22,7 @@
 
 #ifndef DateToolsLocalizedStrings
 #define DateToolsLocalizedStrings(key) \
-NSLocalizedStringFromTableInBundle(key, @"DateTools", [NSBundle bundleWithPath:[[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"DateTools.bundle"]], nil)
+NSLocalizedStringFromTableInBundle(key, @"DateTools", [NSBundle bundleWithPath:[[[NSBundle bundleWithIdentifier:@"org.cocoapods.DateTools"] resourcePath] stringByAppendingPathComponent:@"DateTools.bundle"]], nil)
 #endif
 
 #import <Foundation/Foundation.h>
